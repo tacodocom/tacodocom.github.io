@@ -1,7 +1,1018 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="utf-8">
   <title>Tacodo</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="tacodo, bds, nha dat, can ho, căn hộ, nhà đất, cho thue, sang nhuong, cho thuê, sang nhượng" name="keywords">
+  <meta content="mô gới bất động sản chuyên nghiệp" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.ICO" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="click-closed"></div>
+  <!--/ Form Search Star /-->
+  <div class="box-collapse">
+    <div class="title-box-d">
+      <h3 class="title-d">Tìm kiếm</h3>
+    </div>
+    <span class="close-box-collapse right-boxed ion-ios-close"></span>
+    <div class="box-collapse-wrap form">
+      <form class="form-a">
+        <div class="row">
+          <div class="col-md-12 mb-2">
+            <div class="form-group">
+              <label for="keyword">Từ khoá</label>
+              <input type="text" class="form-control form-control-lg form-control-a" placeholder="Từ khoá">
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="type">Type</label>
+              <select class="form-control form-control-lg form-control-a" id="type">
+                <option>Tất cả</option>
+                <option>Cho thuê</option>
+                <option>Mua bán</option>
+                <option>Nhà mẫu</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="city">Thành phố</label>
+              <select class="form-control form-control-lg form-control-a" id="city">
+                <option>Tất cả</option>
+                <option>Hồ Chí Minh</option>
+                <option>Hà Nội</option>
+                <option>Đà Nẵng</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="bedrooms">Số phòng</label>
+              <select class="form-control form-control-lg form-control-a" id="bedrooms">
+                <option>Bất kỳ</option>
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="garages">Bãi giữ xe</label>
+              <select class="form-control form-control-lg form-control-a" id="garages">
+                <option>Bất kỳ</option>
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="bathrooms">Nhà tắm</label>
+              <select class="form-control form-control-lg form-control-a" id="bathrooms">
+                <option>Bất kỳ</option>
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="price">Giá</label>
+              <select class="form-control form-control-lg form-control-a" id="price">
+                <option>Bất kỳ</option>
+                <option>5,000,000</option>
+                <option>10,000,000</option>
+                <option>15,000,000</option>
+                <option>20,000,000</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-b">Tìm kiếm</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!--/ Form Search End /-->
+
+  <!--/ Nav Star /-->
+  <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+    <div class="container">
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a class="navbar-brand text-brand" href="index.html">BĐS<span class="color-b">Tacodo</span></a>
+      <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse"
+        data-target="#navbarTogglerDemo01" aria-expanded="false">
+        <span class="fa fa-search" aria-hidden="true"></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Trang chủ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Giới thiệu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">BĐS HOT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link dropdown-toggle" href="#" id="projects" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Dự án
+            </a>
+            <div class="dropdown-menu" aria-labelledby="projects">
+              <a class="dropdown-item" href="#">Lake View</a>
+              <a class="dropdown-item" href="#">Palm City</a>
+              <a class="dropdown-item" href="#">Vin City</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="services" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Dịch vụ
+            </a>
+            <div class="dropdown-menu" aria-labelledby="services">
+              <a class="dropdown-item" href="#">Tư vấn</a>
+              <a class="dropdown-item" href="#">Ký gửi BĐS</a>
+              <a class="dropdown-item" href="#">Thẩm định</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Liên hệ</a>
+          </li>
+        </ul>
+      </div>
+      <button type="button" class="btn btn-b-n navbar-toggle-box-collapse d-none d-md-block" data-toggle="collapse"
+        data-target="#navbarTogglerDemo01" aria-expanded="false">
+        <span class="fa fa-search" aria-hidden="true"></span>
+      </button>
+    </div>
+  </nav>
+  <!--/ Nav End /-->
+
+  <!--/ Carousel Star /-->
+  <div class="intro intro-carousel">
+    <div id="carousel" class="owl-carousel owl-theme">
+      <div class="carousel-item-a intro-item bg-image" style="background-image: url(img/slide-1.jpg)">
+        <div class="overlay overlay-a"></div>
+        <div class="intro-content display-table">
+          <div class="table-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8">
+                  <div class="intro-body">
+                    <p class="intro-title-top">Lake view, Quận 2
+                      <br> Đường số 5</p>
+                    <h1 class="intro-title mb-4">
+                      <span class="color-b">204 </span> Dãy A
+                      <br> Khu biệt thự</h1>
+                    <p class="intro-subtitle intro-price">
+                      <a href="#"><span class="price-a">Thuê | 21M VND</span></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item-a intro-item bg-image" style="background-image: url(img/slide-2.jpg)">
+        <div class="overlay overlay-a"></div>
+        <div class="intro-content display-table">
+          <div class="table-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8">
+                  <div class="intro-body">
+                    <p class="intro-title-top">Lake view, Quận 2
+                      <br> Đường số 5</p>
+                    <h1 class="intro-title mb-4">
+                      <span class="color-b">420 </span> Dãy D
+                      <br> Khu ven sông</h1>
+                    <p class="intro-subtitle intro-price">
+                      <a href="#"><span class="price-a">Thuê | 18M VND</span></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item-a intro-item bg-image" style="background-image: url(img/slide-3.jpg)">
+        <div class="overlay overlay-a"></div>
+        <div class="intro-content display-table">
+          <div class="table-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8">
+                  <div class="intro-body">
+                    <p class="intro-title-top">Lake view, Quận 2
+                      <br> Đường số 5</p>
+                    <h1 class="intro-title mb-4">
+                      <span class="color-b">240 </span> Dãy C
+                      <br> Khu thể thao</h1>
+                    <p class="intro-subtitle intro-price">
+                      <a href="#"><span class="price-a">Thuê | 25M VND</span></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Carousel end /-->
+
+  <!--/ Services Star /-->
+  <section class="section-services section-t8">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-wrap d-flex justify-content-between">
+            <div class="title-box">
+              <h2 class="title-a">Dịch Vụ</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card-box-c foo">
+            <div class="card-header-c d-flex">
+              <div class="card-box-ico">
+                <span class="fa fa-gamepad"></span>
+              </div>
+              <div class="card-title-c align-self-center">
+                <h2 class="title-c">Tư vấn</h2>
+              </div>
+            </div>
+            <div class="card-body-c">
+              <p class="content-c">
+                Tư vấn luật, thủ tục pháp lý, làm sổ đỏ, xin giấy phép xây dựng.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-box-c foo">
+            <div class="card-header-c d-flex">
+              <div class="card-box-ico">
+                <span class="fa fa-usd"></span>
+              </div>
+              <div class="card-title-c align-self-center">
+                <h2 class="title-c">Ký gửi BĐS</h2>
+              </div>
+            </div>
+            <div class="card-body-c">
+              <p class="content-c">
+                 Ký gửi bđs giúp giao dịch mua bán nhanh hơn,luôn đảm bảo thông tin khách hàng.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-box-c foo">
+            <div class="card-header-c d-flex">
+              <div class="card-box-ico">
+                <span class="fa fa-home"></span>
+              </div>
+              <div class="card-title-c align-self-center">
+                <h2 class="title-c">Định giá</h2>
+              </div>
+            </div>
+            <div class="card-body-c">
+              <p class="content-c">
+                Định giá và thẩm định giá các tài sản bất động sản bao gồm tổ chức và cá nhân.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Services End /-->
+
+  <!--/ Property Star /-->
+  <section class="section-property section-t8">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-wrap d-flex justify-content-between">
+            <div class="title-box">
+              <h2 class="title-a">Mới Cập Nhật</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="property-carousel" class="owl-carousel owl-theme">
+        <div class="carousel-item-b">
+          <div class="card-box-a card-shadow">
+            <div class="img-box-a">
+              <img src="img/property-6.jpg" alt="" class="img-a img-fluid">
+            </div>
+            <div class="card-overlay">
+              <div class="card-overlay-a-content">
+                <div class="card-header-a">
+                  <h2 class="card-title-a">
+                    <a href="property-single.html">106 Dãy B
+                      <br /> Lake view city</a>
+                  </h2>
+                </div>
+                <div class="card-body-a">
+                  <div class="price-box d-flex">
+                    <span class="price-a">Thuê | 12M VND</span>
+                  </div>
+                </div>
+                <div class="card-footer-a">
+                  <ul class="card-info d-flex justify-content-around">
+                    <li>
+                      <h4 class="card-info-title">Diện tích</h4>
+                      <span>80m
+                        <sup>2</sup>
+                      </span>
+                    </li>
+                    <li>
+                      <h4 class="card-info-title">Phòng ngủ</h4>
+                      <span>2</span>
+                    </li>
+                    <li>
+                      <h4 class="card-info-title">Nhà tắm</h4>
+                      <span>2</span>
+                    </li>
+                    <li>
+                      <h4 class="card-info-title">Bãi giữ xe</h4>
+                      <span>1</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item-b">
+          <div class="card-box-a card-shadow">
+            <div class="img-box-a">
+              <img src="img/property-3.jpg" alt="" class="img-a img-fluid">
+            </div>
+            <div class="card-overlay">
+              <div class="card-overlay-a-content">
+                <div class="card-header-a">
+                  <h2 class="card-title-a">
+                    <a href="property-single.html">15.04 block A
+                      <br /> Palm city</a>
+                  </h2>
+                </div>
+                <div class="card-body-a">
+                  <div class="price-box d-flex">
+                    <span class="price-a">Thuê | 15M VND</span>
+                  </div>
+                </div>
+                <div class="card-footer-a">
+                  <ul class="card-info d-flex justify-content-around">
+                    <li>
+                      <h4 class="card-info-title">Diện tích</h4>
+                      <span>340m
+                        <sup>2</sup>
+                      </span>
+                    </li>
+                    <li>
+                      <h4 class="card-info-title">Phòng ngủ</h4>
+                      <span>2</span>
+                    </li>
+                    <li>
+                      <h4 class="card-info-title">Nhà tắm</h4>
+                      <span>2</span>
+                    </li>
+                    <li>
+                      <h4 class="card-info-title">Bãi giữ xe</h4>
+                      <span>2</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item-b">
+          <div class="card-box-a card-shadow">
+            <div class="img-box-a">
+              <img src="img/property-7.jpg" alt="" class="img-a img-fluid">
+            </div>
+            <div class="card-overlay">
+              <div class="card-overlay-a-content">
+                <div class="card-header-a">
+                  <h2 class="card-title-a">
+                    <a href="property-single.html">Tầng 81
+                      <br /> Vin city</a>
+                  </h2>
+                </div>
+                <div class="card-body-a">
+                  <div class="price-box d-flex">
+                    <span class="price-a">Thuê | 20M VND</span>
+                  </div>
+                </div>
+                <div class="card-footer-a">
+                  <ul class="card-info d-flex justify-content-around">
+                    <li>
+                      <h4 class="card-info-title">Diện tích</h4>
+                      <span>140m
+                        <sup>2</sup>
+                      </span>
+                    </li>
+                    <li>
+                      <h4 class="card-info-title">Phòng ngủ</h4>
+                      <span>3</span>
+                    </li>
+                    <li>
+                      <h4 class="card-info-title">Nhà tắm</h4>
+                      <span>2</span>
+                    </li>
+                    <li>
+                      <h4 class="card-info-title">Bãi giữ xe</h4>
+                      <span>2</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item-b">
+          <div class="card-box-a card-shadow">
+            <div class="img-box-a">
+              <img src="img/property-10.jpg" alt="" class="img-a img-fluid">
+            </div>
+            <div class="card-overlay">
+              <div class="card-overlay-a-content">
+                <div class="card-header-a">
+                  <h2 class="card-title-a">
+                    <a href="property-single.html">106 Dãy C
+                      <br /> Lake view city</a>
+                  </h2>
+                </div>
+                <div class="card-body-a">
+                  <div class="price-box d-flex">
+                    <span class="price-a">Thuê | 25M VND</span>
+                  </div>
+                </div>
+                <div class="card-footer-a">
+                  <ul class="card-info d-flex justify-content-around">
+                    <li>
+                      <h4 class="card-info-title">Diện tích</h4>
+                      <span>120m
+                        <sup>2</sup>
+                      </span>
+                    </li>
+                    <li>
+                      <h4 class="card-info-title">Phòng ngủ</h4>
+                      <span>2</span>
+                    </li>
+                    <li>
+                      <h4 class="card-info-title">Nhà tắm</h4>
+                      <span>2</span>
+                    </li>
+                    <li>
+                      <h4 class="card-info-title">Bãi giữ xe</h4>
+                      <span>2</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Property End /-->
+
+  <!--/ Agents Star /-->
+  <section class="section-agents section-t8">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-wrap d-flex justify-content-between">
+            <div class="title-box">
+              <h2 class="title-a">Nhân Viên Tư Vấn</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card-box-d">
+            <div class="card-img-d">
+              <img src="img/agent-4.jpg" alt="" class="img-d img-fluid">
+            </div>
+            <div class="card-overlay card-overlay-hover">
+              <div class="card-header-d">
+                <div class="card-title-d align-self-center">
+                  <h3 class="title-d">
+                    <a href="agent-single.html" class="link-two">Võ Thanh
+                      <br> Ngân</a>
+                  </h3>
+                </div>
+              </div>
+              <div class="card-body-d">
+                <p class="content-d color-text-a">
+                  Hãy để tôi tìm gian bến cho bạn trổ tài bếp trưởng.
+                </p>
+                <div class="info-agents color-a">
+                  <p>
+                    <strong>Phone: </strong> +84 908 900881</p>
+                  <p>
+                    <strong>Email: </strong> contact@tacodo.com</p>
+                </div>
+              </div>
+              <div class="card-footer-d">
+                <div class="socials-footer d-flex justify-content-center">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-dribbble" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-box-d">
+            <div class="card-img-d">
+              <img src="img/agent-1.jpg" alt="" class="img-d img-fluid">
+            </div>
+            <div class="card-overlay card-overlay-hover">
+              <div class="card-header-d">
+                <div class="card-title-d align-self-center">
+                  <h3 class="title-d">
+                    <a href="agent-single.html" class="link-two">Nguyễn Thành
+                      <br> Công</a>
+                  </h3>
+                </div>
+              </div>
+              <div class="card-body-d">
+                <p class="content-d color-text-a">
+                  Luôn có căn hộ phù hợp với thu nhập của bạn.
+                </p>
+                <div class="info-agents color-a">
+                  <p>
+                    <strong>Phone: </strong> +84 908 900881</p>
+                  <p>
+                    <strong>Email: </strong> contact@tacodo.com</p>
+                </div>
+              </div>
+              <div class="card-footer-d">
+                <div class="socials-footer d-flex justify-content-center">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-dribbble" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-box-d">
+            <div class="card-img-d">
+              <img src="img/agent-5.jpg" alt="" class="img-d img-fluid">
+            </div>
+            <div class="card-overlay card-overlay-hover">
+              <div class="card-header-d">
+                <div class="card-title-d align-self-center">
+                  <h3 class="title-d">
+                    <a href="agent-single.html" class="link-two">Trương
+                      <br> Emma</a>
+                  </h3>
+                </div>
+              </div>
+              <div class="card-body-d">
+                <p class="content-d color-text-a">
+                  Tài chính khó khăn không thể ngăn bạn tìm nơi làm mái ấm gia đình.
+                </p>
+                <div class="info-agents color-a">
+                  <p>
+                    <strong>Phone: </strong> +84 908 900881</p>
+                  <p>
+                    <strong>Email: </strong> contact@tacodo.com</p>
+                </div>
+              </div>
+              <div class="card-footer-d">
+                <div class="socials-footer d-flex justify-content-center">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="link-one">
+                        <i class="fa fa-dribbble" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Agents End /-->
+
+  <!--/ News Star /-->
+  <section class="section-news section-t8">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-wrap d-flex justify-content-between">
+            <div class="title-box">
+              <h2 class="title-a">Dự Án Triển Khai</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="new-carousel" class="owl-carousel owl-theme">
+        <div class="carousel-item-c">
+          <div class="card-box-b card-shadow news-box">
+            <div class="img-box-b">
+              <img src="img/post-2.jpg" alt="" class="img-b img-fluid">
+            </div>
+            <div class="card-overlay">
+              <div class="card-header-b">
+                <div class="card-category-b">
+                  <a href="#" class="category-b">Nhà riêng</a>
+                </div>
+                <div class="card-title-b">
+                  <h2 class="title-2">
+                    <a href="#">Đang cập nhật
+                      <br> mới</a>
+                  </h2>
+                </div>
+                <div class="card-date">
+                  <span class="date-b">Quý 3, 2019</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item-c">
+          <div class="card-box-b card-shadow news-box">
+            <div class="img-box-b">
+              <img src="img/post-5.jpg" alt="" class="img-b img-fluid">
+            </div>
+            <div class="card-overlay">
+              <div class="card-header-b">
+                <div class="card-category-b">
+                  <a href="#" class="category-b">Căn hộ</a>
+                </div>
+                <div class="card-title-b">
+                  <h2 class="title-2">
+                    <a href="#">Đang cập nhật
+                      <br> mới</a>
+                  </h2>
+                </div>
+                <div class="card-date">
+                  <span class="date-b">Quý 3, 2019</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item-c">
+          <div class="card-box-b card-shadow news-box">
+            <div class="img-box-b">
+              <img src="img/post-7.jpg" alt="" class="img-b img-fluid">
+            </div>
+            <div class="card-overlay">
+              <div class="card-header-b">
+                <div class="card-category-b">
+                  <a href="#" class="category-b">Dinh thự</a>
+                </div>
+                <div class="card-title-b">
+                  <h2 class="title-2">
+                    <a href="#">Đang cập nhật
+                      <br> mới</a>
+                  </h2>
+                </div>
+                <div class="card-date">
+                  <span class="date-b">Quý 4, 2019</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <!--/ News End /-->
+
+  <!--/ Testimonials Star /-->
+  <section class="section-testimonials section-t8 nav-arrow-a">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-wrap d-flex justify-content-between">
+            <div class="title-box">
+              <h2 class="title-a">Khách Hàng</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="testimonial-carousel" class="owl-carousel owl-arrow">
+        <div class="carousel-item-a">
+          <div class="testimonials-box">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <div class="testimonial-img">
+                  <img src="img/testimonial-1.jpg" alt="" class="img-fluid">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <div class="testimonial-ico">
+                  <span class="ion-ios-quote"></span>
+                </div>
+                <div class="testimonials-content">
+                  <p class="testimonial-text">
+                    Chúng tôi đã phải tìm đến nhiều đại lý khác nhau cho đến khi gặp Tacodo.
+                    Dịch vụ của bạn thật hoàn hảo, chúng tôi sẽ tiếp dụng sử dụng và ủng hộ trong tương lại.
+                  </p>
+                </div>
+                <div class="testimonial-author-box">
+                  <img src="img/mini-testimonial-1.jpg" alt="" class="testimonial-avatar">
+                  <h5 class="testimonial-author">Anh & Nguyen</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item-a">
+          <div class="testimonials-box">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <div class="testimonial-img">
+                  <img src="img/testimonial-2.jpg" alt="" class="img-fluid">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <div class="testimonial-ico">
+                  <span class="ion-ios-quote"></span>
+                </div>
+                <div class="testimonials-content">
+                  <p class="testimonial-text">
+                    Chúng tôi cảm thấy rất vui sướng và hạnh phục khi tìm được căn nhà ưng ý để làm mái ấm cho gia đình.
+                    Cám ơn Tacodo đã giúp chúng tôi hiện thực hoá giấc mơ của mình.
+                  </p>
+                </div>
+                <div class="testimonial-author-box">
+                  <img src="img/mini-testimonial-2.jpg" alt="" class="testimonial-avatar">
+                  <h5 class="testimonial-author">Pha & Trang</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Testimonials End /-->
+
+  <!--/ footer Star /-->
+  <section class="section-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand">BdsTacodo</h3>
+            </div>
+            <div class="w-body-a">
+              <p class="w-text-a color-text-a">
+                Bất động sản Tacodo.<br>Mái ấm của bạn, hạnh phúc của tôi!
+              </p>
+            </div>
+            <div class="w-footer-a">
+              <ul class="list-unstyled">
+                <li class="color-a">
+                  <span class="color-text-a">Phone .</span> contact@tacodo.com</li>
+                <li class="color-a">
+                  <span class="color-text-a">Email .</span> +84 908 900881</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 section-md-t3">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand">Công ty</h3>
+            </div>
+            <div class="w-body-a">
+              <div class="w-body-a">
+                <ul class="list-unstyled">
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="#">Cơ cấu tổ chức</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="#">Pháp lý</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="#">Đại lý</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="#">Tuyển dụng</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="#">Quảng cáo</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="#">Chính sách</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 section-md-t3">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand">Liên kết</h3>
+            </div>
+            <div class="w-body-a">
+              <ul class="list-unstyled">
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="https://cattuong.site">Thành Công</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="https://www.jamila.com.vn/">Jamila</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="https://www.novaland.com.vn/lakeview-city">Lake View</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="https://vinhomes.vn">Vin City</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="http://www.palm-city.com.vn">Palm City</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="socials-a">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-dribbble" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="credits">
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--/ Footer End /-->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/scrollreveal/scrollreveal.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({
@@ -9,8 +1020,5 @@
       enable_page_level_ads: true
     });
   </script>
-</head>
-<body>
-Coming soon
 </body>
 </html>
