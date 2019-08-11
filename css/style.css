@@ -989,6 +989,7 @@ a:hover {
   backface-visibility: hidden;
 }
 
+.card-box-a .img-box-a {min-height: 250px}
 .card-box-a .img-a,
 .card-box-a .img-b,
 .card-box-b .img-a,
@@ -1769,7 +1770,7 @@ footer .credits {
   }
 
   .card-overlay-a-content {
-    bottom: -20px;
+    bottom: 60px;
   }
 
   .card-header-a .card-title-a {
@@ -1884,7 +1885,7 @@ footer .credits {
   }
 
   .card-overlay-a-content {
-    bottom: 0px;
+    bottom: 65px;
   }
 
   .card-header-a .card-title-a {

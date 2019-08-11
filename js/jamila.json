@@ -1,0 +1,91 @@
+[
+  {
+    "id": 401349054070133,
+    "img": "https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.0-9/67752652_401349057403466_1692474099697188864_o.jpg?_nc_cat=107&_nc_oc=AQm7RbxIMHne8cEwInbyhYeLYjMMb7ybgec4oS0UTvSbV69xVCzFPyOB3uJEpwodckw&_nc_ht=scontent.fsgn3-1.fna&oh=b59f64ca5d1e1daa891868c7118b4ffd&oe=5DDDFCDC",
+    "url": "https://fb.com/401349054070133",
+    "title": "Cho thuê jamila",
+    "desc": "nhà trống",
+    "type": "Thuê",
+    "price": "7,5M VND",
+    "layout": {
+      "stretch": 75,
+      "bedroom": 2,
+      "bathroom": 2,
+      "management": "1 năm"
+    }
+  },
+  {
+    "id": 2708134825863338,
+    "img": "https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.0-9/67214012_2708134829196671_1476767115376590848_n.jpg?_nc_cat=109&_nc_oc=AQlw9Dy4D0XMeJdNtJv_wRCbMZhIpwuenX_C60un8udRNR6vn14fo1J3It32yfHPZUM&_nc_ht=scontent.fsgn3-1.fna&oh=e996cf858dbb8172d60da1c0df7a93be&oe=5DDF10EF",
+    "url": "https://fb.com/2708134825863338",
+    "title": "View nội khu",
+    "desc": "Tầng cao, gió mát",
+    "type": "Thuê",
+    "price": "13M VND",
+    "layout": {
+      "bedroom": 3,
+      "aircon": 4,
+      "furniture": "bếp, rèm",
+      "management": "1 năm"
+    }
+  },
+  {
+    "id": 329351401303485,
+    "img": "https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.0-9/68472246_329351407970151_1591113794929557504_n.jpg?_nc_cat=107&_nc_oc=AQkxVezEnhHztmy0fXsXKlbVeth4hyKdB6bJTtHM0ubmnfbVt1QhljUaqH0dqqUt-90&_nc_ht=scontent.fsgn3-1.fna&oh=419949556ac1363c330c4ec7d97ed4cb&oe=5DED1A22",
+    "url": "https://fb.com/329351401303485",
+    "title": "Block C tầng 22",
+    "desc": "View nội khu hồ bơi",
+    "type": "Thuê",
+    "price": "15M VND",
+    "layout": {
+      "stretch": 72,
+      "bedroom": 2,
+      "bathroom": 2,
+      "furniture": "đầy đủ"
+    }
+  },
+  {
+    "id": 2430924820324116,
+    "img": "https://scontent.fsgn4-1.fna.fbcdn.net/v/t1.0-9/67907601_2430924823657449_5611870776522178560_o.jpg?_nc_cat=103&_nc_oc=AQkLdid7Iken-ZQU4ICypQ8aDfM3KCaMgWgfv8HUB1I6L_I1MisAxf8EDJBtstMQwHU&_nc_ht=scontent.fsgn4-1.fna&oh=d992547a9c440577dd04c56285321a5b&oe=5DCF5B7F",
+    "url": "https://fb.com/2430924820324116",
+    "title": "Block C",
+    "desc": "",
+    "type": "Thuê",
+    "price": "12M VND",
+    "layout": {
+      "bedroom": 2,
+      "furniture": "đầy đủ",
+      "management": "1 năm"
+    }
+  },
+  {
+    "id": 2489328494440002,
+    "img": "https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.0-9/67686095_2489328497773335_391158391227023360_n.jpg?_nc_cat=109&_nc_oc=AQlESqRq3xFEHspixupjZbSnwSw848Dfu1knLXXiadZtN2pxLRWepQG3djv5jl5OqEg&_nc_ht=scontent.fsgn3-1.fna&oh=5275a32e250a26a0a120a9783ce52fa1&oe=5DEAE75A",
+    "url": "https://fb.com/2489328494440002",
+    "title": "View hồ bơi",
+    "desc": "tầng cao",
+    "type": "Thuê",
+    "price": "10M VND",
+    "layout": {
+      "stretch": 72,
+      "bedroom": 2,
+      "bathroom": 2,
+      "furniture": "đầy đủ"
+    }
+  },
+  {
+    "id": 124425458832699,
+    "img": "https://scontent.fsgn8-1.fna.fbcdn.net/v/t1.0-9/67430220_124425462166032_4727568689954553856_o.jpg?_nc_cat=108&_nc_oc=AQmtgQirrarEQrf0sVSjA5BbFPFbFFP5sbB86R7th9YgXeYzDNjB4eNy3UcHIA4Hgyw&_nc_ht=scontent.fsgn8-1.fna&oh=b401abc8dcc1a2d74af00a7aefbeee08&oe=5DD2F6E4",
+    "url": "https://fb.com/124425458832699",
+    "title": "Block A",
+    "desc": "nhà mới, view cao",
+    "type": "Thuê",
+    "price": "Liên hệ",
+    "layout": {
+      "stretch": 75,
+      "bedroom": 2,
+      "bathroom": 2,
+      "furniture": "đầy đủ"
+    }
+  }
+]
