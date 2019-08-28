@@ -102,6 +102,10 @@ a:hover {
   color: #555555;
 }
 
+.bg-color-b {
+  background-color: #2eca6a;
+}
+
 .no-margin {
   margin: 0;
 }

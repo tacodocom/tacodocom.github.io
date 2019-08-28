@@ -2,7 +2,6 @@ import React from 'react';
 
 export default function TNav() {
   let page = window.location.pathname
-  console.log(page)
   let projects = [
     "/lakeview/index.html",
     "/jamila/index.html",
@@ -31,16 +30,16 @@ export default function TNav() {
           <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class={page.indexOf('/index') == 0 ? `nav-link active` : `nav-link`} href="/index.html">Trang chủ</a>
+                <a class={page.indexOf('/index') === 0 ? `nav-link active` : `nav-link`} href="/index.html">Trang chủ</a>
               </li>
               <li class="nav-item">
-                <a class={page.indexOf('/about') == 0 ? `nav-link active` : `nav-link`} href="/about.html">Giới thiệu</a>
+                <a class={page.indexOf('/about') === 0 ? `nav-link active` : `nav-link`} href="/about.html">Giới thiệu</a>
               </li>
               <li class="nav-item">
-                <a class={page.indexOf('/jamila') == 0 ? `nav-link active` : `nav-link`} href="/jamila/index.html">BĐS HOT</a>
+                <a class={page.indexOf('/property') === 0 ? `nav-link active` : `nav-link`} href="/property.html">BĐS HOT</a>
               </li>
               <li class="nav-item dropdown">
-                <a class={projects.indexOf(page) != -1 ? `nav-link dropdown-toggle active` : `nav-link dropdown-toggle`} href="#" id="projects" role="button" data-toggle="dropdown"
+                <a class={projects.indexOf(page) !== -1 ? `nav-link dropdown-toggle active` : `nav-link dropdown-toggle`} href="#" id="projects" role="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
                   Dự án
                 </a>
