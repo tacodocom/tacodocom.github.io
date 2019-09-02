@@ -28,10 +28,10 @@ function TCard2({feed}) {
 
 function TCard3({feed}) {
   return (
-    <div class="card text-white">
+    <div class="card">
       <div class="bg-color-b p-3 text-center">
         <blockquote class="blockquote mb-0">
-          <a href={feed.uri} target="_blank"><p>{feed.desc}</p></a>
+          <a href={feed.uri} target="_blank" class="text-white"><p>{feed.desc}</p></a>
           <footer class="blockquote-footer">
             <small>{feed.title}</small>
           </footer>
